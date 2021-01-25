@@ -13,3 +13,9 @@ store word ```sw```, ```add```, ```sub```, ```and```, ```or```, ```nor```, set-o
 jump-and-link ```jal``` y jump-register ```jr```.
 
 ![Single Cycle Schematics](https://raw.githubusercontent.com/antorpo/MIPS_Processor_Monocycle/master/cpu.png)
+
+## Circuito Implementado
+![Logisim Circuit](https://raw.githubusercontent.com/antorpo/MIPS_Single_Cycle_Processor/master/circuito.png)
+
+Los archivos que cargan las instrucciones del problema a resolver son respectivamente **_rom_** (posee las instrucciones) y 
+**_ram_** (posee los datos).
